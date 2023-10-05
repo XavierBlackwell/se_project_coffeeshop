@@ -13,4 +13,4 @@ This is the second project of the Software Engineering program at TripleTen. It 
 
 ## Plan on improving the project
 
-In the future I want to add functionality to the nav links and add more anitmations to the page as well, giving it more interactivity and style.
+In the future I want to add functionality to the nav links and add more anitmations to the page as well, giving it more interactivity and style...
