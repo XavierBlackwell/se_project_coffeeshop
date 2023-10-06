@@ -23,11 +23,6 @@
 .form__label_type_checkbox {
   display: flex;
   justify-content: center;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
 }
 
 .form__input {
@@ -37,9 +32,11 @@
   box-sizing: border-box;
   margin-top: 8px;
   height: 60px;
+  border-radius: 4px;
 }
 
 .form__button {
+  cursor: pointer;
   width: 100%;
   padding: 0;
   margin-bottom: 32px;
@@ -54,6 +51,7 @@
   line-height: 20px;
   background-color: #2f80ed;
   color: #ffffff;
+  border-bottom: none;
 }
 
 .form__button:hover {
@@ -67,7 +65,7 @@
   border-radius: 2px;
 }
 
-.input::placeholder {
+.form__input::placeholder {
   font-family: Inter;
   font-style: normal;
   font-weight: normal;
