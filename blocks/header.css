@@ -54,7 +54,7 @@
   color: #838383;
   width: 100%;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
   box-sizing: border-box;
 }
@@ -63,12 +63,6 @@
   margin: 0;
   color: #838383;
   z-index: 2;
-}
-
-.header__list {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
 }
 
 .header__paragraph {
